@@ -62,3 +62,23 @@
     background-color: #fff;
     color: #005eff;
 }
+
+.services__main-button{
+    width: 24px;
+    height: 24px;
+    border-radius: 48px;
+    border: none;
+    background-color: #fff;
+    color: #234f90;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+services__main-button .fa-solid{
+    font-size: 0.7rem;
+}
