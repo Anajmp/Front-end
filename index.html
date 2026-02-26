@@ -1,62 +1,78 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <header class="header">
-    <div class="header__top">
+      <input type="checkbox" name="icon-menu" id="icon-menu" />
+      <div class="header__top">
         <a href="/" class="header__brand">
-        <i class="header__logo fa-brands fa-accusoft"></i>
-        <div>
+          <i class="header__logo fa-brands fa-accusoft"></i>
+          <div>
             <span class="header__title">Name company</span>
             <span class="header__slogan">Slogan</span>
-        </div>
+          </div>
         </a>
         <div class="header__actions">
-        <div class="header__info">
+          <div class="header__info">
             <i class="fa-solid fa-phone"></i>
             <div class="header__info-text">
-            <span class="header__info-main">(99) 99999-9999</span>
-            <span class="header__info-sub">Call us anytime</span>
+              <span class="header__info-main">(99) 99999-9999</span>
+              <span class="header__info-sub">Call us anytime</span>
             </div>
+          </div>
         </div>
-        </div>
-    </div>
 
-    <nav class="header__nav">
+        <div class="header__menu-icon">
+          <label for="icon-menu" class="icon-bars">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <label for="icon-menu" class="icon-close">
+            <i class="fa fa-times"></i>
+          </label>
+        </div>
+      </div>
+
+      <nav class="header__nav">
         <ul class="header__nav-list">
-        <li class="header__nav-item is-active">
+          <li class="header__nav-item is-active">
             <a href="#" class="header__nav-link">HOME</a>
-        </li>
-        <li class="header__nav-item">
+          </li>
+          <li class="header__nav-item">
             <a href="#" class="header__nav-link">CORPORATE</a>
-        </li>
-        <li class="header__nav-item">
+          </li>
+          <li class="header__nav-item">
             <a href="#" class="header__nav-link">PARTNERS</a>
-        </li>
-        <li class="header__nav-item">
+          </li>
+          <li class="header__nav-item">
             <a href="#" class="header__nav-link">NEWS</a>
-        </li>
-        <li class="header__nav-item">
+          </li>
+          <li class="header__nav-item">
             <a href="#" class="header__nav-link">CONTACT US</a>
-        </li>
+          </li>
         </ul>
-    </nav>
+      </nav>
     </header>
 
     <main class="layout">
-        <section class="hero">
-            <span class="hero__title-top">Ships anything</span>
-            <span class="hero__title-main">Around the world</span>
-            <button class="hero__button">QUOTE</button>
-        
-            <section class="features">
-            <div class="features__list">
+      <section class="hero">
+        <span class="hero__title-top">Ships anything</span>
+        <span class="hero__title-main">Around the world</span>
+        <button class="hero__button">QUOTE</button>
+
+        <section class="features">
+          <div class="features__list">
             <div class="feature__card">
               <i class="fa-solid fa-plane"></i>
               <span class="feature__card-title">AIR FREIGHT</span>
@@ -97,11 +113,11 @@
                 <i class="fa-solid fa-angle-right"></i>
               </button>
             </div>
-            </div>
-            </section>
+          </div>
         </section>
+      </section>
 
-    <section class="why__us">
+      <section class="why__us">
         <div class="why__us-container">
           <span class="why__us-subtitle">Why choose us?</span>
 
@@ -272,6 +288,105 @@
           </div>
         </div>
       </section>
+
+      <section class="before__footer">
+        <div class="bfooter__container">
+          <div class="bfooter__card">
+            <div class="numbers">
+              <h1>32</h1>
+            </div>
+            <h3 class="bfooter-text">Countries covered</h3>
+          </div>
+          <div class="bfooter__card">
+            <div class="numbers">
+              <h1>2406</h1>
+            </div>
+            <h3 class="bfooter-text">Satisfed Clients</h3>
+          </div>
+          <div class="bfooter__card">
+            <div class="numbers">
+              <h1>120</h1>
+            </div>
+            <h3 class="bfooter-text">Offices Worldwide</h3>
+          </div>
+          <div class="bfooter__card">
+            <div class="numbers">
+              <h1>100%</h1>
+            </div>
+            <h3 class="bfooter-text">Professional Approach</h3>
+          </div>
+        </div>
+        <div class="image__space">
+          <i ref="#"></i>
+        </div>
+      </section>
     </main>
-</body>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__col footer__about">
+          <a href="/" class="header__brand">
+            <i class="header__logo fa-brands fa-accusoft"></i>
+            <div>
+              <span class="header__title">Ocean Crown</span>
+              <span class="header__slogan">Shipping Services</span>
+            </div>
+          </a>
+
+          <p>
+            Provides air freight services to meet up with your transportation
+            needs, professional services to deliver your air freight fast and
+            safe to its final destination.
+          </p>
+
+          <div class="footer__social">
+            <a href="https://x.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://facebook.com"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://youtube.com"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer__col service">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="">> Project Cargo</a></li>
+            <li><a href="">> Shipping Agency</a></li>
+            <li><a href="">> Used Container</a></li>
+            <li><a href="">> Air Freight</a></li>
+            <li><a href="">> Land Freight</a></li>
+            <li><a href="">> Sea Freight</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col outlook">
+          <h4>Outlook</h4>
+          <ul>
+            <li><a href="">> Shipment Tracking</a></li>
+            <li><a href="">> Get A Quote</a></li>
+            <li><a href="">> Offers Zone</a></li>
+            <li><a href="">> Our Associates</a></li>
+            <li><a href="">> News & Events</a></li>
+            <li><a href="">> Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col footer__subscribe">
+          <h4>Subscribe</h4>
+          <p>
+            Get to know about Ocean Crown, our updates and all news, straight to
+            your inbox.
+          </p>
+
+          <form class="subscribe__form">
+            <input type="email" placeholder="Your Email ID" />
+            <button type="submit">➯</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

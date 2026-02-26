@@ -4,6 +4,7 @@
 /* --- LAYOUT --- */
 @import url("./layout/header.css");
 @import url("./layout/grid.css");
+@import url("./layout/footer.css");
 
 /* --- SECTIONS --- */
 @import url("./sections/hero.css");
@@ -12,6 +13,7 @@
 @import url("./sections/about.css");
 @import url("./sections/company.css");
 @import url("./sections/services.css");
+@import url("./sections/bfolder.css");
 
 /* --- COMPONENTS --- */
 @import url("./components/button.css");
